@@ -31,5 +31,11 @@
     "typescript",
     "typescriptreact",
     "json"
-  ]
+  ],
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/.next": true,
+    "**/node_modules": true,
+    "**next-env.d.ts": true
+  }
 }
